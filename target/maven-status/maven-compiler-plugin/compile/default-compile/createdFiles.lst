@@ -1,0 +1,4 @@
+models\Rider.class
+refactoring\RefactoringMotoTest.class
+models\Moto.class
+tests\MotoTest.class
