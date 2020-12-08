@@ -24,19 +24,17 @@ public class StepDefinitions1 {
         this.rider.setFullname(fullname);
     }
 
-
-    @When("^set (.*) to rider$")
-    public void set_to_rider(Moto mt) {
+    @When("^set moto to rider where \"([^\"]*)\" and \"([^\"]*)\"$")
+    public void set_moto_to_rider_where_and(String arg1, String arg2)  {
         // Write code here that turns the phrase above into concrete actions
-        this.rider.addMoto(mt);
+        Moto moto1 = new Moto(arg1, arg2);
+        this.rider.addMoto(moto1);
     }
 
-
-    @Then("^the rider is subscribed and (.*) is registered$")
-    public void the_rider_is_subscribed_and_is_registered(String arg1)  {
+    @Then("^the rider is subscribed with moto$")
+    public void the_rider_is_subscribed_with_moto() {
         // Write code here that turns the phrase above into concrete actions
-
+        this.rider.toString_myMoto();
     }
-
 
 }
