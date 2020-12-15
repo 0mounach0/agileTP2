@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164502cf-79ae-4957-af64-e78c647b4838" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Moto/StepDefinitions2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Moto/moto.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/Moto/rider.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Moto/StepDefinitions1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Moto/StepDefinitions1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/Moto/subscribeRider.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/Moto/subscribeRider.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/Moto/subscribeRider.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Moto/StepDefinitions1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Moto/StepDefinitions1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Moto/subscribeRider.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Moto/subscribeRider.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Moto/subscribeRider.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,20 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +43,27 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1608064255" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -49,6 +87,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/Moto" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,8 +98,52 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: subscribe a non existing rider (one moto only)">
-    <configuration name="Scenario: subscribe a non existing rider (one moto only)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Moto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\v_-\Documents\M2\agile cucom\src\test\resources\Moto" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber java.Feature: moto">
+    <configuration name="Feature: moto" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Moto/moto.feature" />
+      <option name="GLUE" value="Moto" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Moto" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: moto" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: rider" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Moto/rider.feature" />
+      <option name="GLUE" value="Moto" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="Moto" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: rider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="rider subscription" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true">
       <option name="CUCUMBER_CORE_VERSION" value="2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/Moto/subscribeRider.feature" />
       <option name="GLUE" value="Moto" />
@@ -109,9 +192,18 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Cucumber java.rider subscription" />
+      <item itemvalue="Cucumber java.Feature: rider" />
+      <item itemvalue="JUnit.MotoTest" />
+      <item itemvalue="Lettuce.subscribeRider.feature:subscribe a non existing rider (one moto only)" />
+      <item itemvalue="Cucumber java.Feature: moto" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: subscribe a non existing rider (one moto only)" />
+        <item itemvalue="Cucumber java.Feature: moto" />
+        <item itemvalue="Cucumber java.Feature: rider" />
+        <item itemvalue="Cucumber java.rider subscription" />
         <item itemvalue="Lettuce.subscribeRider.feature:subscribe a non existing rider (one moto only)" />
         <item itemvalue="JUnit.MotoTest" />
       </list>
@@ -148,25 +240,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1607436676577" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608066954552">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1608066954552" />
     <state x="402" y="0" key="#subscribeRider.feature:subscribe_a_non_existing_rider_(one_moto_only)" timestamp="1607439954512">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="402" y="0" key="#subscribeRider.feature:subscribe_a_non_existing_rider_(one_moto_only)/0.0.1366.728@0.0.1366.728" timestamp="1607439954512" />
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1607442335383">
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom" timestamp="1608069663350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607442335383" />
-    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1607442335383">
+    <state width="1323" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608069663350" />
+    <state width="1323" height="278" key="GridCell.Tab.0.center" timestamp="1608069663348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1607442335383" />
-    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1607442335383">
+    <state width="1323" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608069663348" />
+    <state width="1323" height="278" key="GridCell.Tab.0.left" timestamp="1608069663348">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1607442335383" />
-    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1607442335383">
+    <state width="1323" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608069663348" />
+    <state width="1323" height="278" key="GridCell.Tab.0.right" timestamp="1608069663350">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1607442335383" />
+    <state width="1323" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608069663350" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Moto$Feature__rider.ic" NAME="Feature: rider Coverage Results" MODIFIED="1608065359400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cucumber.api.cli.*</FILTER>
+    </SUITE>
   </component>
 </project>
