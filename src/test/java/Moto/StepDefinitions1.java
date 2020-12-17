@@ -39,14 +39,12 @@ public class StepDefinitions1 {
         else {
             Assert.assertFalse(true);
         }
-
     }
 
     @Then("^subscrib moto$")
     public void subscrib_moto() {
         this.motos.add(this.moto);
     }
-
 
     @When("^moto does exist on the db$")
     public void moto_does_exist_on_the_db() {
@@ -57,10 +55,8 @@ public class StepDefinitions1 {
         }
     }
 
-
     @Then("^unsubscrib moto$")
     public void unsubscrib_moto() {
         this.motos.remove(this.moto);
     }
-
 }
