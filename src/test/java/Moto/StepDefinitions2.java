@@ -1,11 +1,9 @@
 package Moto;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import models.Rider;
 import org.junit.Assert;
-
 import java.util.ArrayList;
 
 public class StepDefinitions2 {
@@ -26,13 +24,11 @@ public class StepDefinitions2 {
 
     @When("^rider does not already exist on the db$")
     public void rider_does_not_already_exist_on_the_db()  {
-
         if(this.riders.contains((this.rider)) == false)
             Assert.assertTrue(true);
         else {
             Assert.assertFalse(true);
         }
-
     }
 
     @Then("^subscrib rider$")
@@ -55,10 +51,8 @@ public class StepDefinitions2 {
         }
     }
 
-
     @Then("^unsubscrib rider$")
     public void unsubscrib_rider() {
         this.riders.remove(this.rider);
     }
-
 }
